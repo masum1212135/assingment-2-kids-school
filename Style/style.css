@@ -1,0 +1,179 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quicksand-normal> {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+ 
+  }
+  
+  .logo {
+    display:flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  
+  .logo span {
+    font-size: 20px;
+    font-weight: bold;
+  
+  }
+
+
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+   
+  }
+
+  
+ 
+  
+  nav ul li .child-1{
+    color: #FEA301;
+ }
+ nav ul li .abcd{
+    color: #5D58EF;
+
+ }
+
+ nav ul li .child-3{
+    color: #5D58EF;
+ }
+ nav ul li .child-2{
+    color: magenta;
+ }
+ nav ul li .child-1 .abcd .child-2 .child-3{
+    justify-content: center;
+ }
+
+ nav ul li div {
+   
+ }
+
+  nav ul li .btn{
+    background-color: brown;
+    border-radius: 8px;
+    width: 180px;
+    height: 30px;
+  }
+   
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .hero .content {
+    max-width: 50%;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .hero h1 span {
+    color: #00a9f3;
+  }
+  
+  .hero p {
+    margin: 20px 0;
+    color: #555;
+  }
+  
+  .hero button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+   
+  }
+  
+  .hero button:hover {
+    background-color: #333;
+  }
+  
+  .hero .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+@media screen and (max-width:576px) {
+    @media screen and (max-width: 576px) {
+        header {
+          flex-direction: column;
+          text-align: center;
+        }
+      
+        .logo {
+          justify-content: center;
+          margin-bottom: 10px;
+        }
+      
+        nav ul {
+          flex-direction: column;
+        }
+      
+        nav ul li {
+          margin: 10px 0;
+        }
+      
+        .hero {
+          flex-direction: column;
+          text-align: center;
+        }
+      
+        .hero .content {
+          max-width: 100%;
+        }
+      
+        .hero h1 {
+          font-size: 36px;
+        }
+      
+        .hero p {
+          font-size: 14px;
+        }
+      
+        .hero button {
+          width: 100%;
+          padding: 15px;
+        }
+      
+        .hero .image img {
+          max-width: 90%;
+          margin-top: 20px;
+        }
+      }
