@@ -130,7 +130,7 @@
     border-radius: 20px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   }
-@media screen and (max-width:576px) {
+
     @media screen and (max-width: 576px) {
         header {
           flex-direction: column;
@@ -177,3 +177,45 @@
           margin-top: 20px;
         }
       }
+
+.text{
+  justify-content: center;
+  text-align: center;
+}
+      .prants{
+        display: flex;
+        gap: 28px;
+        border: 1px solid white;
+        padding: 20px;
+      }
+      .fale-1{
+        background-color:#DEF5FF;
+        border-radius: 15px;
+      width: 360px;
+      height: 470;
+      }
+      .fale-2{
+        background-color:#FFF4DC;
+        border-radius: 15px;
+      width: 360px;
+      height: 470;
+      }
+      .fale-3{
+        background-color:#DEF5FF;
+        border-radius: 15px;
+      width: 360px;
+      height: 470;
+        
+      }
+        
+        .red-1{
+          
+          background-color: red;
+        }
+        @media screen and (max-width: 576px) {
+          .prants{
+            flex-direction: column;
+          }
+          
+        }
+
